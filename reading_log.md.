@@ -33,4 +33,15 @@ change your code or propmt without waiting for real users.
 What is one simple check i can do for my essay evluator?I can send the same essay more then once.Meaning if the two scores it gives are 4/6 and 6/6 that means my essay 
 evaluator cannot be trusted.My product doesnt have to be perfect,but i decide how good is good enough.
 
+24 Nov 2026 - Cohen's kappa
+what is Cohen's Kappa?it is a statistical metric that measures how reliably two raters agree when 
+evaluating the same thing,while accounting for the possibility that they might agree purely by chance.
+Why is it better than just counting how often the scores match?It is better than simply counting how
+often the scores match becuase simple agreement ignores random guessing and can therefore overestimate
+the true level of consistency between two raters.
+what does weighted add and why does it suit 1 to 6 scores?and what is your target?I am aiming for 
+substainal kappa between 0.61 and 0.80,since human graders rarely agree perfectly and my ai grader
+just needs to match humans about as closely as they match each other,becuase my essay rubric runs from
+1 to 6.I will use weighted kappa whcih treats a close call like a 5 versus 6 as a minor miss while
+penallizing a wide gap like a 1 versus a 6 much more heavily.
 
