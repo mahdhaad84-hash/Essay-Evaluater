@@ -80,7 +80,33 @@ What are two limits or risks of these Models?Two key limits or risk are hallucin
 inside the readd text or documents hijack the models's behavior.
 Which limit matters most for an essay grader?Prompt inject matters most for an essay grader because a student could hid instruction inside their essay to hijack the grader and manipulate its score or feedback
 
+Sketch: 
 
+Essay in ---> [Refuse to Score? (Early Gate)]
+               Easy to catch now: too short, off-topic.
+               Harder (future checks/model): BABEL nonsense, prompt injections.
+                  |
+                  +---> [Requirements Check] <---- Essay Prompt
+                  |      Break prompt into yes/no items & check each (with few-shot examples).
+                  |
+                  +---> [Fact Check] <------------ Wikipedia / Outside Sources
+                  |      Pull out factual claims & verify against outside sources.
+                  |
+                  +---> [Creativity Check]
+                  |      Judge by comparing essays (to decide in Week 3; avoid length bias).
+                  |
+                  +---> [Novelty Check] <--------- ASAP 2.0 Dataset
+                         Compare the main idea against other essays in the dataset
+                         to see if it is new (separate from whether it is good).
+                  |
+                  v
+           [Final Report]
+            4 scores (Requirements, Facts, Creativity, Novelty) + brief reasons.
 
+----------------------------------------------------------------------------------
+Note (Evaluation / Testing):
+Testing: Level 1 unit tests (consistency & edge cases); weighted Cohen's kappa
+(target 0.61–0.80) against the cohort gold set per dimension, with ASAP 2.0 as
+extra test data for overall quality.
 
 
