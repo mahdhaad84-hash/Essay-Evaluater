@@ -61,3 +61,11 @@ other essay collections like PERSUADE and ELIPSE
 What kind of score does each essay have and what is the scale?Each essay in ASAP 2.0 has a holistic quality score on 1 to 6 scale.
 How will you use this dataset in your project?I can use this dataset to train and benchmark automated essay scoring or writing evaluation models against human assigned quality scores
 
+Nov 24 - Prompting guides
+What are two tips that make a prompt work better?Giving clear instructions such as defining exact constraints and the desired output format and structuring prompts cleanly help guide the model to produce
+more accurate and consistent responses.
+What is a few shot prompt?A few shot prompt includes several concrete examples of desired inputs and outputs in the prompt so the model can learn the pattern,format or standard expected before awnsering the actual request.
+How would you use one of these tips in your grader's prompt?I can include few shot examples of graded essays paired with theit targer scores and brief reasons so the grader matches the expected scoring standard and output format consistently
+
+
+
