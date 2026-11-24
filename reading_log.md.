@@ -54,3 +54,10 @@ given enough step by step reasoning time or reference material
 why cant your grader trust a model to check an essay's fact by itself,and what outside source could it use instead?My grader cannot trust a model to check an essay's fact by itself becuase
 it predicts fluent text without built in fact checking and can invent pluasible falsehoods,so it should cross check claims against a reliable reference document,verified document or live
 search source instead
+
+Nov 24 2026 - ASAP 2.0 Dataset
+What is in the dataset,and how many essays are there?The Asap 2.0 essay dataset contains student written argumentive essays around 24,00 in the main training,while the broader portal also offers
+other essay collections like PERSUADE and ELIPSE
+What kind of score does each essay have and what is the scale?Each essay in ASAP 2.0 has a holistic quality score on 1 to 6 scale.
+How will you use this dataset in your project?I can use this dataset to train and benchmark automated essay scoring or writing evaluation models against human assigned quality scores
+
