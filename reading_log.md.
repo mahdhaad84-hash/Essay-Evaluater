@@ -25,6 +25,12 @@ Which weakness worries me the most?The weakness that worries me the most is that
 even when it isnt better.This is similer to BABEL where essay evaluater check for long wordy sentences,which means my grader would check for long wordy awnser and rate them 
 higher when they are not better.
 
-24 Nov 2026 - Hamel Hussuin:Your AI Product Needs Evals
+24 Nov 2026 - Hamel Husain:Your AI Product Needs Evals
+What an eval is?An evalt is a structured quality test for an Ai system.It checks if the Ai awnser are consistent,accurate and helpful on a set of sample input.
+What the first level of checking looks like?The first level of checking is level1:Unit Test,which are 
+small,fast,assertion based pass/fail checks that you can run on made up sample data everytime you 
+change your code or propmt without waiting for real users.
+What is one simple check i can do for my essay evluator?I can send the same essay more then once.Meaning if the two scores it gives are 4/6 and 6/6 that means my essay 
+evaluator cannot be trusted.My product doesnt have to be perfect,but i decide how good is good enough.
 
 
