@@ -17,7 +17,7 @@ meaning and cannot understand deeper meaning.
 How can it fool mine Essay evaluator?It can fool it by using long or rare words in an essays and thus my evaluator will check for those surface features.Meaning my Ai judge
 can be impressed by the use of these nonsense ai and give a high score.
 
-24 now 2025 - LLM as a Judge paper
+24 now 2026 - LLM as a Judge paper
 What did the LLm as a Judge paper find?It found that top tier Ai judges agree with human evaluators over 80% of the time the same amount two humans agree with each other.
 What weakness did the LLM as Judge paper find?It found thht top tier AI judges are biased to the first essay they check,they prefer long wordy awnsers,they are baised to models
 from their own family and that they can generaly make logical mistakes
@@ -45,3 +45,12 @@ just needs to match humans about as closely as they match each other,becuase my 
 1 to 6.I will use weighted kappa whcih treats a close call like a 5 versus 6 as a minor miss while
 penallizing a wide gap like a 1 versus a 6 much more heavily.
 
+Nov 24 2026 - Hallucination Explainer
+Why does a language model sometimes state false things confidently?A language model states false things confidently becuase it generates plausible sounding text
+by predicting statistically likely next words without an internal fact checking mechanism or database lookup,often fabricating awnser to fill knowledge gaps rather
+than edmitting uncertainty.
+what makes it more likely to happen?Hallucinations becomes more likely when prompts are ambiguous or overly long,when the model has incomplete or when the model is not 
+given enough step by step reasoning time or reference material
+why cant your grader trust a model to check an essay's fact by itself,and what outside source could it use instead?My grader cannot trust a model to check an essay's fact by itself becuase
+it predicts fluent text without built in fact checking and can invent pluasible falsehoods,so it should cross check claims against a reliable reference document,verified document or live
+search source instead
