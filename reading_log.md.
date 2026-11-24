@@ -104,7 +104,6 @@ Essay in ---> [Refuse to Score? (Early Gate)]
             4 scores (Requirements, Facts, Creativity, Novelty) + brief reasons.
 
 ----------------------------------------------------------------------------------
-Note (Evaluation / Testing):
 Testing: Level 1 unit tests (consistency & edge cases); weighted Cohen's kappa
 (target 0.61–0.80) against the cohort gold set per dimension, with ASAP 2.0 as
 extra test data for overall quality.
