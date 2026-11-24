@@ -67,5 +67,13 @@ more accurate and consistent responses.
 What is a few shot prompt?A few shot prompt includes several concrete examples of desired inputs and outputs in the prompt so the model can learn the pattern,format or standard expected before awnsering the actual request.
 How would you use one of these tips in your grader's prompt?I can include few shot examples of graded essays paired with theit targer scores and brief reasons so the grader matches the expected scoring standard and output format consistently
 
+Nov 24 - 3Blue1Brown:But what is a GPT
+What does GPT stand for in simple words?GPT stands for Generative Pre trained Transformer meaning a model that generates text ,was first trained broadly on massive amounts of data and uses a transformer neural network.
+What does a language model actualy do when it writes text?It turns input chunks into number list that absorb context across attention and feed forward layers,then outputs a probability distribution over possible next tokens and repeatedly samples
+one token at a time to continue the text.
+Why does that make it risky to trust for facts?It is beacuase it predicts plausible next tokens based on learned patterns and probabillity samplingr rather than verifying truth,it can smoothly generate text that sounds right while still being factually wrong
+
+
+
 
 
