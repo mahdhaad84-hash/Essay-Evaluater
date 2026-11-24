@@ -73,6 +73,13 @@ What does a language model actualy do when it writes text?It turns input chunks 
 one token at a time to continue the text.
 Why does that make it risky to trust for facts?It is beacuase it predicts plausible next tokens based on learned patterns and probabillity samplingr rather than verifying truth,it can smoothly generate text that sounds right while still being factually wrong
 
+Nov 24 - Karpathy:Intro to Large Language Models
+How is a language model trained in 2 or 3 steps?First,pre training trains the base model on a massive amount of iternet text to predict the next word and compress word knowledge into its parameters:second,fine tuning turns it into a helpful assistant and an optional third 
+stage uses comaprison labels/reinforcement learning from human feedback to refine its response further.
+What are two limits or risks of these Models?Two key limits or risk are hallucination where the model dreams up pluasible sounding text or fake details like non existant ISBN numbers rather than reliably knowing facts and prompt injection attacks,where hidden or external instruction
+inside the readd text or documents hijack the models's behavior.
+Which limit matters most for an essay grader?Prompt inject matters most for an essay grader because a student could hid instruction inside their essay to hijack the grader and manipulate its score or feedback
+
 
 
 
